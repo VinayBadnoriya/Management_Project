@@ -1,8 +1,8 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "scripts": {
-        "dev": "uvicorn app.main:app --reload",
-        "start": "uvicorn app.main:app"
-    }
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node init && uvicorn app.main:app --reload",
+    "start": "node init && uvicorn app.main:app"
+  }
 }
